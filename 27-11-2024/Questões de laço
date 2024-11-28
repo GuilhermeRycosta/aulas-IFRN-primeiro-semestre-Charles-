@@ -1,0 +1,21 @@
+#Q1. Fazer um programa que solicite um valor inteiro e calcule o seu fatorial.
+
+'''
+Fatorial
+
+6! = 6*5*4*3*2*1
+n! = n * (n - 1) * (n - 2)... * 1
+0! = 1 e 1! = 1
+não existe fatorial para n<0 (negativo)
+
+'''
+
+#Q2. Fazer um programa que solicite um valor inteiro positivo (n) e imprimaos n primeiros elementos da sequência de fibonacci
+
+'''
+Fibonacci
+
+o número seguinte é a soma de todos os números anteriores
+1,1,2,3,5,8,13,21...
+
+'''
