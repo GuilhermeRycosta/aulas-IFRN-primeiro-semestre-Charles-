@@ -1,0 +1,10 @@
+frase = input('Insira uma frase: ').strip()
+
+palavras = frase.split()
+palavraMaior = ''
+
+for palavra in palavras:
+    if len(palavra) > len(palavraMaior):
+        palavraMaior = palavra
+
+print("A palavra mais longa é:", palavraMaior)
