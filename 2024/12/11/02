@@ -1,5 +1,5 @@
 p1 = input("Digite a primeira palavra: ").replace(" ", "").lower()
-p2 = input("Digite a segunda palavra: ").replace(" ", "").lower()
+p2 = input("Digite a segunda palavra:  ").replace(" ", "").lower()
 
 if sorted(p1) == sorted(p2):
     print("As palavras são anagramas.")
