@@ -1,0 +1,10 @@
+data = input('Digite uma data no formato DD/MM/AAAA: ')
+if len(data) == 10:
+    ano = data[6:10]
+    mes = data[3:5 ]
+    dia = data[0:2 ]
+
+    print(f'{ano}/{mes}/{dia}')
+
+if len(data) != 10:
+    print('Formado inválido de data')
