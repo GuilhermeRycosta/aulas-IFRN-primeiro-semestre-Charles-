@@ -1,0 +1,7 @@
+frase = input('Digite uma frase: ')
+
+v1 = int(input('Digite o valor inteiro inicial (0): '))
+v2 = int(input(f'Digite o valor inteiro final (menor que {len(frase)}): '))
+
+trecho = frase[v1:v2]
+print(f'O trecho da frase entre os índices {v1} e {v2} é: "{trecho}"')
