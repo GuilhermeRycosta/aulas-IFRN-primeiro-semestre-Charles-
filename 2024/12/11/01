@@ -7,4 +7,4 @@ for palavra in palavras:
     if len(palavra) > len(palavraMaior):
         palavraMaior = palavra
 
-print("A palavra mais longa é:", palavraMaior)
+print(f'A palavra mais longa é: {palavraMaior}')
